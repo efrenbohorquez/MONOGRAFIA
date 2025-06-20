@@ -3,6 +3,22 @@
 ## Descripción del Proyecto
 Esta monografía académica analiza la implementación y gestión de los Objetivos de Desarrollo Sostenible (ODS) en la administración pública del Distrito Capital de Bogotá, Colombia. El estudio examina las políticas, estrategias y mecanismos adoptados por las entidades públicas bogotanas para contribuir al cumplimiento de la Agenda 2030.
 
+## Repositorio GitHub
+
+**URL del proyecto:** https://github.com/efrenbohorquez/MONOGRAFIA
+
+### Configuración inicial completada:
+- ✅ Repositorio Git inicializado
+- ✅ Conexión con GitHub establecida
+- ✅ Archivo .gitignore configurado para LaTeX
+- ✅ Estructura completa del proyecto subida
+- ✅ Guía de trabajo con Git incluida
+
+### Para colaborar en el proyecto:
+1. Clonar el repositorio: `git clone https://github.com/efrenbohorquez/MONOGRAFIA.git`
+2. Consultar `GUIA_REPOSITORIO.md` para instrucciones detalladas
+3. Seguir el flujo de trabajo: pull → edit → add → commit → push
+
 ## Estructura del Proyecto
 
 ```
