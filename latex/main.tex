@@ -1,0 +1,88 @@
+\documentclass[12pt,a4paper,oneside]{article}
+
+% Paquetes necesarios
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage[margin=3cm,left=4cm,right=2cm]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{enumitem}
+
+% Configuración para APA 7
+\usepackage[style=apa,backend=biber,natbib=true]{biblatex}
+\addbibresource{referencias.bib}
+
+% Configuración de espaciado
+\onehalfspacing
+
+% Configuración de encabezados
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% Configuración de títulos de sección
+\titleformat{\section}
+{\normalfont\fontsize{12}{15}\bfseries\centering}
+{\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\normalfont\fontsize{12}{15}\bfseries}
+{\thesubsection}{1em}{}
+
+\titleformat{\subsubsection}
+{\normalfont\fontsize{12}{15}\bfseries}
+{\thesubsubsection}{1em}{}
+
+% Información del documento
+\title{OBJETIVOS DE DESARROLLO SOSTENIBLE EN LA ADMINISTRACIÓN PÚBLICA DE BOGOTÁ: ANÁLISIS DE IMPLEMENTACIÓN Y GESTIÓN DE POLÍTICAS PÚBLICAS}
+\author{[Nombre del Autor]}
+\date{19 de junio de 2025}
+
+\begin{document}
+
+% Página de título
+\input{portada}
+
+% Tabla de contenido
+\tableofcontents
+\newpage
+
+% Lista de figuras
+\listoffigures
+\newpage
+
+% Lista de tablas
+\listoftables
+\newpage
+
+% Resumen
+\input{resumen}
+\newpage
+
+% Capítulos
+\input{capitulos/introduccion}
+\input{capitulos/marco-teorico}
+\input{capitulos/metodologia}
+\input{capitulos/desarrollo}
+\input{capitulos/resultados}
+\input{capitulos/conclusiones}
+
+% Referencias
+\printbibliography
+
+% Anexos
+\input{anexos/anexos}
+
+\end{document}

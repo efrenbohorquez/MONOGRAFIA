@@ -1,0 +1,41 @@
+# Archivos temporales de LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+
+# Archivos de editor
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Directorio de compilación (opcional)
+build/
+
+# Archivos específicos del sistema
+.vscode/
+*.tmp
+
+# Mantener solo el PDF final
+latex/*.pdf
+!latex/main.pdf
+
+# Archivos de respaldo
+*.bak
+*.backup
